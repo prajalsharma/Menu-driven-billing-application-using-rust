@@ -8,7 +8,7 @@ struct Bill{
 }
 
 struct Bills{
-    inner:HashMap<String,Bill>,
+    inner:HashMap<String,Bill>, 
 }
 
 impl Bills {
